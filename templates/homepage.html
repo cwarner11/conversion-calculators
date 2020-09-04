@@ -1,0 +1,21 @@
+{%extends 'base_layout.html'%}
+
+{%block content%}
+
+
+
+	{%if user.is_authenticated%}
+	<div class="home-txt">
+		<h1>Welcome to Christopher's Conversion Calculators</h1>
+		<p class="home-txt"> Feel free to check out our current conversion calculators <a class="quick-link-home" href="{% url 'calculators:list'%}">here</a>!</p>
+	</div>
+
+	{%else %}
+		<div class="home-txt">
+			<h1>Welcome to Christopher's Conversion Calculators</h1>
+			<p class="home-txt"> Login or signup to access the avaliable conversion calculators </p>
+		</div>
+
+	{%endif%}
+	
+{%endblock%}
