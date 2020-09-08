@@ -1,7 +1,6 @@
 ### Specification:
 
-In conversion.py, the user is prompted to enter their weight that is formatted into a float. If the user enters a weight less than zero, it throws an error message and requires them to renter a weight greater than zero. After entering a valid weight, the user is asked if the float they entered in pounds(lbs) or kilograms(kg). When they correctly enter their initial unit of weight, the program converts it to the option not used and prints it out to the screen.
+In this project, I used a combination of the Django framework, Python, CSS, HTML, and Javascript to create a web application. This application takes the users' input of a unit of measurement and converts it into a different measurement unit. The application converts the weight in pounds or kilograms and converts them automatically to the unused variable. It also takes the length and converts it between miles and kilometers, and the temperature between Fahrenheit and Celsius. Only users who sign up for the application or log in to a previously created account can access the calculator functions. Once the user signs up, their information is stored in a database where the administrator can view the user's data.  
 
 
 
-*My code is located in conversion.py*
