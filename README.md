@@ -4,3 +4,4 @@ In this project, I used a combination of the Django framework, Python, CSS, HTML
 
 
 
+To run this server; in your computers terminal, cd into the folder that contains manage.py file. Then run *Python manage.py runserver* or if youre using python3 run *Python3 manage.py runserver*
