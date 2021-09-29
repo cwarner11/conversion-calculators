@@ -11,3 +11,8 @@ To run this server; in your computers terminal, cd into the folder that contains
 or if youre using python3 run 
 
 --> *Python3 manage.py runserver* <--
+
+
+The link will appear in the user's terminal. Copy and paste the link into a web browser address bar and create a account to access the coversion calculator pages.
+
+To shut off the server from the command line, use the shortcut keys 'Control + C'. 
